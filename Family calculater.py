@@ -1,0 +1,7 @@
+name=input("enter your name : ")
+father= input("your father dead enter 0 ,live enter 1: ")
+mother=input("your father dead enter 0 ,live enter 1: ")
+brother= input("your brothers number is : ")
+sister=input("your sisters number is: ")
+family_num=float(father)+float(mother)+float(brother)+float(sister)
+print("number of family members is: "+str(family_num))
